@@ -11,8 +11,15 @@
 		56C4872D29864F3800432046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4872C29864F3800432046 /* SceneDelegate.swift */; };
 		56C4872F29864F3800432046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4872E29864F3800432046 /* ViewController.swift */; };
 		56C4873229864F3800432046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C4873029864F3800432046 /* Main.storyboard */; };
-		56C4873429864F3A00432046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C4873329864F3A00432046 /* Assets.xcassets */; };
 		56C4873729864F3A00432046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C4873529864F3A00432046 /* LaunchScreen.storyboard */; };
+		56C487422986552900432046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C487412986552900432046 /* Assets.xcassets */; };
+		56C4874B2986579C00432046 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56C487442986579C00432046 /* A.wav */; };
+		56C4874C2986579C00432046 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56C487452986579C00432046 /* C.wav */; };
+		56C4874D2986579C00432046 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56C487462986579C00432046 /* B.wav */; };
+		56C4874E2986579C00432046 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56C487472986579C00432046 /* F.wav */; };
+		56C4874F2986579C00432046 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56C487482986579C00432046 /* G.wav */; };
+		56C487502986579C00432046 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56C487492986579C00432046 /* E.wav */; };
+		56C487512986579C00432046 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56C4874A2986579C00432046 /* D.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +28,16 @@
 		56C4872C29864F3800432046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		56C4872E29864F3800432046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56C4873129864F3800432046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		56C4873329864F3A00432046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56C4873629864F3A00432046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56C4873829864F3A00432046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C487412986552900432046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56C487442986579C00432046 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		56C487452986579C00432046 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		56C487462986579C00432046 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		56C487472986579C00432046 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		56C487482986579C00432046 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		56C487492986579C00432046 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		56C4874A2986579C00432046 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +73,27 @@
 				56C4872A29864F3800432046 /* AppDelegate.swift */,
 				56C4872C29864F3800432046 /* SceneDelegate.swift */,
 				56C4872E29864F3800432046 /* ViewController.swift */,
+				56C487412986552900432046 /* Assets.xcassets */,
 				56C4873029864F3800432046 /* Main.storyboard */,
-				56C4873329864F3A00432046 /* Assets.xcassets */,
 				56C4873529864F3A00432046 /* LaunchScreen.storyboard */,
+				56C487432986579C00432046 /* Sounds */,
 				56C4873829864F3A00432046 /* Info.plist */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		56C487432986579C00432046 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				56C487442986579C00432046 /* A.wav */,
+				56C487452986579C00432046 /* C.wav */,
+				56C487462986579C00432046 /* B.wav */,
+				56C487472986579C00432046 /* F.wav */,
+				56C487482986579C00432046 /* G.wav */,
+				56C487492986579C00432046 /* E.wav */,
+				56C4874A2986579C00432046 /* D.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +154,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C4874F2986579C00432046 /* G.wav in Resources */,
 				56C4873729864F3A00432046 /* LaunchScreen.storyboard in Resources */,
-				56C4873429864F3A00432046 /* Assets.xcassets in Resources */,
+				56C4874E2986579C00432046 /* F.wav in Resources */,
+				56C487422986552900432046 /* Assets.xcassets in Resources */,
+				56C4874B2986579C00432046 /* A.wav in Resources */,
+				56C4874D2986579C00432046 /* B.wav in Resources */,
+				56C487502986579C00432046 /* E.wav in Resources */,
+				56C487512986579C00432046 /* D.wav in Resources */,
 				56C4873229864F3800432046 /* Main.storyboard in Resources */,
+				56C4874C2986579C00432046 /* C.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +358,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
